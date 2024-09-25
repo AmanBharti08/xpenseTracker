@@ -1,0 +1,8 @@
+.belowContainer {
+  background-color: #626262;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}

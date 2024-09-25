@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  background-color: #626262;
+  border-radius: 20px;
+  padding: 50px;
+  gap: 50px;
+  color: white;
+}
+.walletBalance {
+  width: 30%;
+  background-color: #9b9b9b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.expense {
+  width: 30%;
+  background-color: #9b9b9b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.pieChart {
+  width: 30%;
+  height: 250px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.walletBalance > button,
+.expense > button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+.walletBalance > button {
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 128, 0),
+    rgba(0, 128, 0, 0.745)
+  );
+}
+.expense > button {
+  background-image: linear-gradient(to right, red, rgba(255, 0, 0, 0.642));
+}
+
+.walletBalance > button:hover,
+.expense > button:hover {
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
